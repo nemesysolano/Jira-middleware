@@ -1,0 +1,22 @@
+# Add h2 datasource configuration
+spring:
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password: password
+  h2:
+    console:
+      enabled: true
+
+# Add server port configuration
+server:
+  port: 8080
+  servlet:
+    context-path: /jira-middlewar
+
+jira:
+  domain: ${JIRA_URL:https://rafaelraulsolano.atlassian.net}
+  username: ${JIRA_USERNAME:rafael.raul.solano@icloud.com}
+  password: ${JIRA_PASSWORD:ATATT3xFfGF0PXN5rq35wrQTgZulTHzPJBviVPom_oyLRNgMC5ivT_kijGADmFnrQW716KsNt74Fk0aGw2E4-nVWMmK6Sb1v6CdlTqBdv5VtX3qEniYeEMxKeQldwLjKoX6wb0WFJNZ6MBUnxSQ4BbSaXn7QG1D4aV5SSQX_zQOFAWuqcid0jIE=033F07C1}
+  issueType: ${JIRA_ISSUE_TYPE:10008}

@@ -1,0 +1,25 @@
+{
+  "fields": {
+    "project": {
+      "id": "{projectId}"
+    },
+    "issuetype": {
+      "id": "{issueType}"
+    },
+    "summary": "{summary}",
+    "customfield_10036": "{issueLink}",
+    "customfield_10037": {riskLevel},
+    "labels": [],
+    "reporter": {
+      "id": "{userId}"
+    },
+    "issuerestriction": {
+      "projectrole": []
+    },
+    "customfield_10021": []
+  },
+  "update": {},
+  "watchers": [
+    "{userId}"
+  ]
+}

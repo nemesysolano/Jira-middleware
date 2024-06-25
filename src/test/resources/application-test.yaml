@@ -1,0 +1,8 @@
+jira:
+   test:
+    parentIssueId: JAL-1
+    issueId: JAL-3
+    email: rafael.raul.solano@icloud.com
+    projectId: 10001
+    issueType: 10008
+    externalToken: 0.06653476948849857
