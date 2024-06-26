@@ -1,8 +1,8 @@
 jira:
    test:
-    parentIssueId: JAL-1
-    issueId: JAL-3
-    email: rafael.raul.solano@icloud.com
-    projectId: 10001
-    issueType: 10008
+    parentIssueId: SCRUM-2
+    issueId: SCRUM-1
+    email: bobbyraydev@outlook.com
+    projectId: 10000
+    issueType: 10002
     externalToken: 0.06653476948849857

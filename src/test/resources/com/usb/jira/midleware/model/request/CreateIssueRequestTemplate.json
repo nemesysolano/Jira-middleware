@@ -7,14 +7,12 @@
       "id": "{issueType}"
     },
     "summary": "{summary}",
-    "customfield_10036": "{issueLink}",
-    "customfield_10037": {riskLevel},
+    "customfield_10021": [],
+    "customfield_10033": "{issueLink}",
+    "customfield_10034": {riskLevel},
     "labels": [],
     "reporter": {
       "id": "{userId}"
-    },
-    "issuerestriction": {
-      "projectrole": []
     },
     "customfield_10021": []
   },
